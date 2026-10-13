@@ -1,0 +1,66 @@
+/* Загальні стилі */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Секції */
+section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+section:hover {
+  transform: translateY(-3px);
+}
+
+/* Заголовки */
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #34495e;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+/* Текст */
+p {
+  margin: 6px 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Кольорові акценти для кожної задачі */
+.template1 { border-left: 6px solid #3498db; }
+.template2 { border-left: 6px solid #9b59b6; }
+.template3 { border-left: 6px solid #e67e22; }
+.template4 { border-left: 6px solid #27ae60; }
+.template5 { border-left: 6px solid #f1c40f; }
+.template6 { border-left: 6px solid #e74c3c; }
+
+/* Адаптивність */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  section {
+    padding: 15px;
+  }
+  .title {
+    font-size: 1.1rem;
+  }
+}
